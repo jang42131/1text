@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff; /* White text color for better contrast */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3vw;
+    color: red; /* Red text color */
+    font-weight: bold; /* Bold text */
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type=password] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    width: 100px;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#reportButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4b4b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#reportButton:hover {
+    background-color: #ff0000;
+}
